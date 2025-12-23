@@ -1,0 +1,16 @@
+[project]
+name = "cpzutils"
+version = "0.1.0"
+description = "個人用 python 小工具集"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "fastapi[all]>=0.127.0",
+]
