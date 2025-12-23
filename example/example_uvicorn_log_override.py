@@ -1,9 +1,7 @@
 """
 運行此程式的方式:
-    1. cd example | uv run example_uvicorn_log_override.py
-    2. uv run example/example_uvicorn_log_override.py
-    3. cd example | uv run uvicorn example_uvicorn_log_override:app
-    4. uv run uvicorn example.example_uvicorn_log_override:app
+    1. uv run example/example_uvicorn_log_override.py
+    2. uv run uvicorn example.example_uvicorn_log_override:app
 """
 
 from contextlib import asynccontextmanager
