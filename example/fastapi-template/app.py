@@ -1,13 +1,6 @@
-"""
-運行此程式的方式:
-    1. uv run example/example_uvicorn_log_override.py
-    2. uv run uvicorn example.example_uvicorn_log_override:app
-"""
-
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
-import uvicorn
 
 from cpzutils import uvicorn_log_override
 
@@ -21,7 +14,3 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     lifespan=lifespan,
 )
-
-
-if __name__ == "__main__":
-    uvicorn.run(app)
