@@ -1,6 +1,6 @@
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/CPZhang9487/cpzutils)
-[![Stars](https://img.shields.io/github/stars/CPZhang9487/cpzutils?style=social)](https://github.com/CPZhang/cpzutils)
-[![Forks](https://img.shields.io/github/forks/CPZhang9487/cpzutils?style=social)](https://github.com/CPZhang/cpzutils)
+[![Stars](https://img.shields.io/github/stars/CPZhang9487/cpzutils?style=social)](https://github.com/CPZhang9487/cpzutils)
+[![Forks](https://img.shields.io/github/forks/CPZhang9487/cpzutils?style=social)](https://github.com/CPZhang9487/cpzutils)
 
 # CPZUtils
 
