@@ -66,6 +66,9 @@ wheels = [
 name = "cpzutils"
 version = "0.2.0"
 source = { editable = "." }
+dependencies = [
+    { name = "starlette" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -73,6 +76,7 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "starlette", specifier = ">=0.50.0" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "fastapi", extras = ["all"], specifier = ">=0.127.0" }]
