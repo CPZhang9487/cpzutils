@@ -2,7 +2,6 @@ import logging
 import logging.config
 from pathlib import Path
 
-
 _already_overridden = False
 
 
