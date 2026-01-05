@@ -11,3 +11,6 @@ wheels/
 
 # uvicorn_log_override.py
 /**/log/uvicorn.access.log*
+
+# node.js
+node_modules/
