@@ -1,7 +1,7 @@
 uv format
 uvx ruff check --fix
 uvx isort .
-git add *.py
+git add :**/*.py
 
 if git diff --staged --quiet; then
     echo "No changes."
